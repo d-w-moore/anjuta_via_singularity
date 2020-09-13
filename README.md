@@ -29,5 +29,5 @@ $ sudo singularity build --sandbox anjuta anjuta.simg
 $ sudo singularity shell --writable anjuta
 Singularity> apt update; apt install {custom-packages...}
 Singularity> exit
-$ sudo build anjuta_updated.simg anjuta
+$ sudo singularity build anjuta_updated.simg anjuta
 ```
